@@ -1,0 +1,79 @@
+#dynamic-article {
+  position: absolute;
+  top: 40%; /* Justér efter behov */
+  left: 60%; /* Justér efter behov */
+  background: rgba(255, 255, 255, 0.9); /* Hvid baggrund med gennemsigtighed */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Sørger for, at det er ovenpå kortet */
+  width: 300px; /* Justér bredde */
+  display: none; /* Starter skjult */
+}
+
+/* Stil til overskrift, tekst og billede */
+#dynamic-article h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+#dynamic-article p {
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+#dynamic-article img {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+@keyframes draw {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+/* Gør Rute1 og Rute2 usynlige fra start */
+#Rute1,
+#Rute2 {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  stroke: #fd0202;
+  stroke-width: 5px;
+  visibility: hidden;
+}
+
+/* Når en rute er synlig, start animationen */
+#Rute1.visible,
+#Rute2.visible {
+  visibility: visible;
+  animation: spor 5s ease forwards;
+}
+
+@keyframes spor {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+#Rute2 {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+  stroke: #fd0202;
+  stroke-width: 5px;
+  visibility: hidden;
+}
+
+/* Når ruten er synlig, start animationen */
+#Rute2.visible {
+  visibility: visible;
+  animation: spor 5s ease forwards;
+}
+
+@keyframes spor {
+  to {
+    stroke-dashoffset: 0;
+  }
+}

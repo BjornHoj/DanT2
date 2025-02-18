@@ -1,0 +1,20 @@
+[
+    [
+        {
+          "sted":"DannyPlads",
+          "tekst":"Pladsen er opkaldt efter Dan Turèlls kælenavn, Onkel Danny, og er et kulturelt samlingspunkt for kunstnere, musikere og kreative miljøer",
+          "billede":"Onkel_Dannys_Plads_1"
+        },
+        {
+          "sted":"PalæBar",
+          "tekst":"Dan Turèll var stamgæst her, hvor han mødtes med kolleger som Klaus Rifbjerg og Benny Andersen",
+          "billede":"Palæbar"
+        },
+        {
+          "sted":"JazzHus",
+          "tekst":"Her oplevede Dan Turèll live jazz i verdensklasse og fandt inspiration til sin poesi og byskildringer",
+          "billede":"Jazzhus"
+        }
+     
+        ]
+]

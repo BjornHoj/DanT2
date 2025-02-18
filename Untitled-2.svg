@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="poi" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 768">
+  <!-- Generator: Adobe Illustrator 29.3.0, SVG Export Plug-In . SVG Version: 2.1.0 Build 146)  -->
+  <image width="1056" height="622" transform="translate(105.7 57.7)" xlink:href="Untitled-2-1.png"/>
+  <circle id="JazzHus" cx="870.8" cy="193.7" r="14.5" fill="#a11d21" stroke="#000" stroke-miterlimit="10"/>
+  <circle id="PalæBar" cx="848.2" cy="146.4" r="14.5" fill="#a11d21" stroke="#000" stroke-miterlimit="10"/>
+  <circle id="DannyPlads" cx="367.6" cy="559.7" r="14.5" fill="#a11d21" stroke="#000" stroke-miterlimit="10"/>
+  <line id="Rute1" x1="856.3" y1="208.2" x2="838.3" y2="160.9" fill="#a11d21" stroke="#000" stroke-miterlimit="10"/>
+  <path id="Rute2" d="M838.3,165.5l-4.5,22.5s-51.9,15.3-51.4,16.9,11.2,36.3,11.2,36.3l-27.6,20.4-50,42.4-25,32.7-25.5,14.3-34.7,25.5-19.9,32.7-12.3,19.9-11.7,14.3-44.4,27.1-35.7,27.1-99.1,62.3-20.9-14.5-7.1,6.2" fill="none" stroke="#e53f25" stroke-miterlimit="10"/>
+</svg>
