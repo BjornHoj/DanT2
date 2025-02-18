@@ -84,7 +84,7 @@ async function runProgram() {
 
 const dannyPlads = document.getElementById("DannyPlads");
 const rute2 = document.getElementById("Rute2");
-const palaeBar = document.getElementById("PalæBar");
+const jazzHus = document.getElementById("JazzHus");
 const rute1 = document.getElementById("Rute1");
 
 // Eventlistener til DannyPlads for at vise Rute2
@@ -92,7 +92,7 @@ dannyPlads.addEventListener("click", () => {
   rute2.classList.add("visible");
 });
 
-// Eventlistener til PalæBar for at vise Rute1
-palaeBar.addEventListener("click", () => {
+// Eventlistener til JazzHus for at vise Rute1
+jazzHus.addEventListener("click", () => {
   rute1.classList.add("visible");
 });
