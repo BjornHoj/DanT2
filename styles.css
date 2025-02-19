@@ -77,3 +77,15 @@
     stroke-dashoffset: 0;
   }
 }
+
+#overskrift {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+#video-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
